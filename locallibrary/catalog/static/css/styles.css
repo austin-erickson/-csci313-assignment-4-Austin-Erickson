@@ -12,22 +12,4 @@
     margin: 0;
   }
   
-.borrowed-books-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.borrowed-books-table th, .borrowed-books-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-.borrowed-books-table th {
-    background-color: #f2f2f2;
-    color: #333;
-}
-.borrowed-books-table tr:nth-child(even) {background-color: #f9f9f9;}
-.borrowed-books-table tr:hover {background-color: #eaeaea;}
-.status-available {color: green;}
-.status-maintenance {color: red;}
-.status-on-loan {color: orange;}
-.status-reserved {color: purple;}
+  

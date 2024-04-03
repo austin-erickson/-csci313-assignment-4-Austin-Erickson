@@ -47,7 +47,11 @@
             <ul>
                 <li><a href="{% url 'all-borrowed' %}">All Borrowed Books</a></li>
                 <!-- Other librarian links -->
-            </ul>
+                {% if perms.catalog.add_author %}
+                <li><a href="{% url 'author-create' %}">Create author</a></li>
+                {% endif %}
+
+              </ul>
         </div>
     {% endif %}
             </ul>

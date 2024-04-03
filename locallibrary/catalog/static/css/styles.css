@@ -12,4 +12,154 @@
     margin: 0;
   }
   
+  /* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar styling */
+  .sidebar-nav {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .sidebar-nav li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar-nav li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar-nav li a:hover {
+    color: #0056b3;
+  }
+  
+  /* Logout button styling */
+  #logout-form button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #logout-form button:hover {
+    color: #0056b3;
+  }
+  
+  /* Main content styling */
+  .col-sm-10 {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #0056b3;
+  }
+  
+  
+  .pagination {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .page-links a {
+    color: #0056b3;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+  
+  .page-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .page-current {
+    margin: 0 5px;
+  }
+  
+  /* Librarian section styling */
+  #sidebar {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #sidebar h2 {
+    color: #333;
+  }
+  
+
+  /* Form styling */
+form.authForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  
+  th, td {
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="submit"].subForm,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"].subForm {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"].subForm:hover {
+    background-color: #004494;
+  }
+  
+ 
+  .errorlist {
+    color: red;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  td {
+    padding-right: 20px;
+  }
+
+ 
+  
   
